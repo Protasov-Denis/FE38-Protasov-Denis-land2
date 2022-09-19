@@ -1,0 +1,25 @@
+{
+  "name": "fe38-protasov-denis-land2",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 3 versions, not dead",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Protasov-Denis/FE38-Protasov-Denis-land2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Protasov-Denis/FE38-Protasov-Denis-land2/issues"
+  },
+  "homepage": "https://github.com/Protasov-Denis/FE38-Protasov-Denis-land2#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0"
+  }
+}
