@@ -1,7 +1,7 @@
 {
-  "name": "fe38-protasov-denis-land2",
+  "name": "ad",
   "version": "1.0.0",
-  "description": "",
+  "description": "das",
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 3 versions, not dead",
   "scripts": {
@@ -21,5 +21,11 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.7.0",
     "parcel": "^2.7.0"
-  }
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.1",
+    "popper.js": "^1.16.1"
+  },
+  "main": "index.html"
 }

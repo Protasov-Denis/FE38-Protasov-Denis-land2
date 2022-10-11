@@ -1,0 +1,19 @@
+.footer {
+    background-image: url('../img/bg2.png');
+}
+.description-footer {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin:auto;
+    display: block;
+    max-width: 370px;
+    text-align: center;
+    @include h5;
+    color: $_light-grey;
+    text-transform: capitalize;
+}
+.kamal {
+    color: $_white;
+    @include h5;
+    text-transform: capitalize;
+}

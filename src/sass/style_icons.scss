@@ -1,0 +1,51 @@
+.icons {padding: 128px 15px 133px;
+
+    // .icons_wrap
+
+    &_wrap {
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    }
+
+    // .icons_card
+
+    &_card {
+        max-width: 370px;
+        align-items: center;
+    }
+}
+.card {
+    // .card_img
+
+    &_img {
+        display: block;
+        color: $_red;
+        font-size: 4rem;
+        text-align: center;
+        align-items: center;
+    }
+}
+.card-title {
+    text-align: center;
+    margin-top: 63px;
+    color: $_light-black;
+    @include h4;
+}
+.card-description {
+    text-align: center;
+    margin-top: 43px;
+    @include h5;
+    color: $_grey;
+}
+.icons_card:nth-child(4){
+    margin-top: 100px;
+}
+.icons_card:nth-child(5){
+    margin-top: 100px;
+}
+.icons_card:nth-child(6){
+    margin-top: 100px;
+}

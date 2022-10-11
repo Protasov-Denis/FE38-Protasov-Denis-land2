@@ -1,0 +1,15 @@
+.title-ready {
+    margin-top: 114px;
+    @include ready;
+    text-align: center;
+}
+.subtitle-ready {
+    margin-top: 6px;
+    @include fusce;
+    text-align: center;
+}
+.button-ready {
+
+    @include button-normal;
+    margin: 50px auto 114px;
+}

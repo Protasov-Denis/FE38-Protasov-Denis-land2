@@ -5,7 +5,6 @@
     font-size: 4rem;
     line-height: 75px;
     text-transform: uppercase;
-    color:#000000;
 }
 @mixin h2 {
     font-family: 'Raleway';
@@ -13,7 +12,6 @@
     font-weight: 700;
     font-size: 2,25rem;
     line-height: 42px;
-    color: #000000;
 }
 
 @mixin h3 {
@@ -22,30 +20,99 @@
     font-weight: 700;
     font-size: 1,875rem;
     line-height: 35px;
-    color: #000000;
 }
 @mixin h4 {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 900;
-    font-size: 1,5rem;
+    font-size: 1.5rem;
     line-height: 28px;
     text-transform: uppercase;
-    color:#000000;
 }
 
 @mixin h5 {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 1,125rem;
+    font-size: 1.125rem;
     line-height: 21px;
-    color: #000000;
+}
+@mixin h6 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.8125rem;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+@mixin ready {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.875rem;
+    // line-height: 12px;
+    color: $_black;
+}
+@mixin fusce {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.125rem;
+    // line-height: 21px;
+    color: $_black;
+    text-transform: uppercase;
 }
 @mixin description {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 1,5rem;
+    font-size: 1.5rem;
     line-height: 28px;
+}
+@mixin button-normal {
+    width: 369px;
+    height: 78px;
+    text-align: center;
+    display: block;
+    background: $_red;
+    border:none;
+    color: $_white;
+    @include h4;
+}
+@mixin button-hover {
+    width: 369px;
+    height: 78px;
+    text-align: center;
+    display: block;
+    border:none;
+    color: #E71414;
+    @include h4;
+}
+@mixin button-active {
+    width: 369px;
+    height: 78px;
+    text-align: center;
+    display: block;
+    border:none;
+    color: $_red;
+    box-shadow: 4px 4px 30px #FF4343;
+    @include h4;
+}
+@mixin integer-title {
+    font-family: 'Cardo';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 49px;
+    text-transform: capitalize;
+    color: $_white;
+}
+@mixin integer-subtitle {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.8125rem;
+    line-height: 15px;
+    color: $_white;
+    text-transform: uppercase;
 }
