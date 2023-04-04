@@ -1,0 +1,21 @@
+.main{
+    padding: 130px 0 120px;
+    position: relative;
+    z-index: 232;
+}
+.main-title {
+    color: $_white;
+    text-align: center;
+    @include h1;
+}
+.main-description {
+    color: $_white;
+    text-align: center;
+    margin-top: 32px;
+    @include description;
+}
+.main-button {
+    cursor: pointer;
+    margin: 82px auto 0;
+    @include button-normal;
+}

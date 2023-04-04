@@ -1,0 +1,89 @@
+.founder {
+    padding-top: 114px;
+    padding-bottom: 114px;
+}
+
+.card-founder {
+    max-width: 270px;
+
+		// .card-founder_img
+
+		&_img {
+            width: 270px;
+            height: 270px;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: 100%;
+                flex-wrap: wrap;
+            }
+		}
+
+		// .card-founder_title
+
+		&_title {
+            @include h4;
+            line-height: 28px;
+            margin-top: 30px;
+            color: $_light-black;
+		}
+
+		// .card-founder_subtitle
+
+		&_subtitle {
+            @include h5;
+            margin-top: 6px;
+            text-transform: uppercase;
+            color: $_red;
+		}
+
+		// .card-founder_description
+
+		&_description {
+            @include h5;
+            color: $_grey;
+            margin-top: 18px;
+		}
+}
+.card-founder_links {
+        margin-top: 30px;
+        display: flex;
+        justify-content: flex-start;
+            .card-founder-links_facebook{
+                width: 40px;
+                height: 40px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: 100%;
+                    flex-wrap: wrap;
+                }
+            }
+            .card-founder-links_twitter{
+                width: 40px;
+                height: 40px;
+                margin-left: 5px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: 100%;
+                    flex-wrap: wrap;
+                }
+            }
+            .card-founder-links_linkedin{
+                width: 40px;
+                height: 40px;
+                margin-left: 5px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: 100%;
+                    flex-wrap: wrap;
+                }
+            }
+
+}
